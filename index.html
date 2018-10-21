@@ -1,42 +1,88 @@
 <html>
 <head>
-<title> Станкин</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+    <title> Станкин</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <div class="main-wrapper">
-<div class="main">
-  <div class="block">
-    <h1>
-Личная страница
-</h1>
-  </div>
-<div class="block">
-<h3>
-Студент:
-</h3>
-  <span> Игнатов П.И.</span>
-   </div>
-  <div class="block">
-<h3>
-Группа:
-</h3>
-  <span> ИДМ-18-02</span>
-   </div>
-<h1>
-Отчет по лабораторным работам
-  <div class="otchet">
-    <h5>Лабораторна работа №1 "Экосистема разработки программ с открытым кодом" </h5>
-    <ul>
-      <li>
-        <a href="https://github.com/Dreamlife18/Dreamlife18.github.io">Создание личной страницы</a>
-      </li>
-      <li>
-        <a href="https://dreamlife18.github.io/">Размещение личной страницы на хостинге</a>
-      </li>
-    </ul>
-  </div>
+    <main class="main">
+        <header class="header">
+            Личная страница
+        </header>
+        <div class="student">
+            <p class="student__title">
+                Студент:
+            </p>
+            <span> Игнатов П.И.</span>
+
+            <p class="student__title">
+                Группа:
+            </p>
+            <span> ИДМ-18-02</span>
+
+        </div>
+        <div class="content">
+            <h1>Отчеты по лабораторным работам</h1>
+            <ul>
+                <li>
+                    <div class="work">
+                        <div class="work__title">Лабораторна работа №1 "Экосистема разработки программ с открытым кодом"
+                        </div>
+                        <div class="work__info">
+                            <ul>
+                                <li>
+                                    Регистрация на хостинге GitHub.
+                                    <div class="images"></div>
+                                </li>
+                                <li>
+                                    Создание репозитория.
+                                    <div class="images _second"></div>
+
+                                </li>
+                                <li>
+                                    <a href="https://github.com/Dreamlife18/Dreamlife18.github.io">Создание личной
+                                        страницы</a>
+                                </li>
+                                <li>
+                                    <a href="https://dreamlife18.github.io/">Размещение личной страницы на хостинге</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="work">
+                        <div class="work__title">Лабораторна работа №2 "Разработка простого веб-приложения"
+                        </div>
+                        <div class="work__info">
+                            <ul>
+                                <li>
+                                    <a href=""> Перейти</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="work">
+                        <div class="work__title">Лабораторна работа №3 "Настройка локальной сети передачи данных"
+                        </div>
+                        <div class="work__info">
+                            <ul>
+                                <li>
+                                    В процессе
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
 </div>
-  </div>
+<script src="first.js"></script>
 </body>
+</html>
 </html>
