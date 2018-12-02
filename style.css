@@ -126,6 +126,15 @@ body {
         color: darkred; }
         .work__info ul li a:hover {
           text-decoration: underline; }
+      .work__info ul li table {
+        border: 2px solid darkred;
+        border-spacing: 0; }
+        .work__info ul li table td, .work__info ul li table tr {
+          border: 1px solid darkred;
+          padding: 8px;
+          text-align: center; }
+        .work__info ul li table tr:nth-child(2n) {
+          background-color: #f2f4f3; }
 
 .images {
   width: 600px;
@@ -138,4 +147,8 @@ body {
     background-image: url(images/uKThDzVpv58.jpg); }
   .images._projects {
     background-image: url(images/Yu1FXWpLYpU.jpg); }
+  .images._network {
+    background-image: url(images/network.png); }
+  .images._network-all {
+    background-image: url(images/All.png); }
 
